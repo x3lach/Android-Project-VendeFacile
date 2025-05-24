@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- New blue and white color palette -->
+    <color name="primary">#1E88E5</color>           <!-- Medium blue -->
+    <color name="primary_dark">#0D47A1</color>      <!-- Deep blue for status bar -->
+    <color name="primary_light">#BBDEFB</color>     <!-- Light blue for subtle highlights -->
+    <color name="accent">#64B5F6</color>            <!-- Sky blue for accent -->
+    <color name="accent_dark">#2979FF</color>       <!-- Bright blue -->
+    
+    <!-- Shades of blue for various UI elements -->
+    <color name="blue_100">#E3F2FD</color>          <!-- Very light blue -->
+    <color name="blue_200">#90CAF9</color>          <!-- Pale blue -->
+    <color name="blue_300">#42A5F5</color>          <!-- Light medium blue -->
+    <color name="blue_400">#1E88E5</color>          <!-- Medium blue (same as primary) -->
+    <color name="blue_500">#1976D2</color>          <!-- Medium dark blue -->
+    <color name="blue_600">#1565C0</color>          <!-- Dark blue -->
+    <color name="blue_700">#0D47A1</color>          <!-- Very dark blue -->
+    
+    <!-- Semantic colors (still using blue tones) -->
+    <color name="success">#4FC3F7</color>           <!-- Light blue for success -->
+    <color name="warning">#81D4FA</color>           <!-- Very light blue for warnings -->
+    <color name="error">#B71C1C</color>             <!-- Deep red for errors (keeping for usability) -->
+    
+    <!-- Text colors -->
+    <color name="text_primary">#263238</color>      <!-- Very dark blue-gray for primary text -->
+    <color name="text_secondary">#455A64</color>    <!-- Dark blue-gray for secondary text -->
+    <color name="text_hint">#B0BEC5</color>         <!-- Light blue-gray for hints -->
+    
+    <!-- Background colors -->
+    <color name="background">#F5F7FA</color>        <!-- Off-white with blue tint -->
+    <color name="background_card">#FFFFFF</color>   <!-- Pure white for cards -->
+    
+    <!-- System colors (for compatibility) -->
+    <color name="purple_500">#1E88E5</color>        <!-- Mapped to primary -->
+    <color name="purple_700">#0D47A1</color>        <!-- Mapped to primary_dark -->
+    <color name="teal_200">#64B5F6</color>          <!-- Mapped to accent -->
+    <color name="teal_700">#2979FF</color>          <!-- Mapped to accent_dark -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

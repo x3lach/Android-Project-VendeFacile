@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">projetandroid</string>
+    <string name="sales_points_title">Points de Vente</string>
+    <string name="points_de_vente">Points de vente</string>
+    <string name="my_location">Ma position</string>
+</resources>

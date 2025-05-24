@@ -1,0 +1,63 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Projetandroid" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+    
+    <!-- No Action Bar theme -->
+    <style name="Theme.Projetandroid.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+    
+    <!-- Styles pour les TextView -->
+    <style name="TextViewTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    
+    <style name="TextViewSubtitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+    
+    <!-- Styles pour les boutons -->
+    <style name="ButtonPrimary" parent="Widget.VenteFacile.Button">
+        <item name="android:backgroundTint">@color/primary</item>
+    </style>
+    
+    <style name="ButtonSecondary" parent="Widget.VenteFacile.Button">
+        <item name="android:backgroundTint">@color/accent</item>
+    </style>
+    
+    <style name="ButtonOutlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary</item>
+        <item name="android:textColor">@color/primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+    
+    <!-- Style pour les éléments de liste -->
+    <style name="ListItemCard" parent="Widget.VenteFacile.CardView">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="cardBackgroundColor">@color/background_card</item>
+    </style>
+    
+    <!-- Style pour les champs de recherche -->
+    <style name="SearchFieldStyle" parent="Widget.VenteFacile.TextInputLayout">
+        <item name="startIconDrawable">@android:drawable/ic_menu_search</item>
+        <item name="boxBackgroundColor">@color/background_card</item>
+    </style>
+</resources>
