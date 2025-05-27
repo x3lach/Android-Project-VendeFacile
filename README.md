@@ -37,4 +37,4 @@ Une application Android pour les commerçants, développée en Java, permettant 
 ## Installation 🛠️
 1. Cloner le dépôt :
    ```bash
-   [https://github.com/x3lach/Android-Project-VendeFacile.git](https://github.com/x3lach/Android-Project-VendeFacile.git)
+   https://github.com/x3lach/Android-Project-VendeFacile.git
